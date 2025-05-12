@@ -3,13 +3,13 @@
 ACTION="$1"
 
 export DWQ_DISQUE_URL="disque:7711"
-CI_GIT_URL="ssh://git@git.riot-os.org:3333"
-CI_GIT_URL_WORKER="https://git.riot-os.org"
+CI_GIT_URL="ssh://git@172.26.63.50:3333"
+CI_GIT_URL_WORKER="https://172.26.63.50"
 
 MURDOCK_API_URL="http://localhost:8000"
 
 CI_BUILD_REPO_WORKER="murdock/RIOT"
-GITHUB_REPO_URL="https://github.com/RIOT-OS/RIOT"
+GITHUB_REPO_URL="https://github.com/Baertig/RIOT"
 
 BASEDIR="$(dirname $(realpath $0))"
 
